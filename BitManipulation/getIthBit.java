@@ -1,5 +1,5 @@
 import java.util.*;
-public class operations{
+public class getIthBit{
     public static int getIthBit(int n, int i){
         int bitMask = 1<<i;
         if((n & bitMask) == 0){

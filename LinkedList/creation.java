@@ -13,7 +13,7 @@ public static Node head;
 public static Node tail;
 
 public static void main(String args){
-    LinkedList ll = new LinkedList();
+    creation ll = new creation();
     ll.head = new Node(1);
     ll.head = new Node(2);
 

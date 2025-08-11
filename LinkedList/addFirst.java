@@ -30,7 +30,7 @@ public class addFirst {
 
     }
     public static void main(String[] args) {
-        LinkedList ll = new LinkedList();
+        addFirst ll = new addFirst();
         ll.addFirst(1);
         ll.addFirst(2);
     }

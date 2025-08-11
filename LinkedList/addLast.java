@@ -1,5 +1,4 @@
 
-import java.util.LinkedList;
 
 public class addLast {
     class Node{
@@ -32,7 +31,7 @@ public class addLast {
     }
 
     public static void main(String[] args) {
-        LinkedList ll = new LinkedList<>();
+        addLast ll = new addLast();
         ll.addLast(3);
         ll.addLast(4);
     }

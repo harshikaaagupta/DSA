@@ -30,8 +30,6 @@ This repository is my personal playground where I explore, practice, and conquer
 ## 💻 Language(s)
 
 ✨ Mostly **Java** (because I love its structure!)
-✨ Sometimes C++ / Python for variety
-
 ---
 
 ## 🚀 Why this repo?

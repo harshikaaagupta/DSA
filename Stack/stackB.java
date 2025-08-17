@@ -1,3 +1,5 @@
+//STACK USING ARRAYLIST
+
 import java.util.ArrayList;
 
 public class stackB {

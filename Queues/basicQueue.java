@@ -1,5 +1,4 @@
-
-public class queueArray {
+public class basicQueue {
     static class Queue{
         static int arr[];
         static int size;

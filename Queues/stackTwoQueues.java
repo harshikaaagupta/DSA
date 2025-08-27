@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class stackTwoQueues {
-    static class Stcak {
+    static class Stack {
         Queue<Integer> q1 = new LinkedList<>();
         Queue<Integer> q2 = new LinkedList<>();
 
@@ -69,7 +69,7 @@ public class stackTwoQueues {
     }
 
     public static void main(String[] args) {
-        Stcak s = new Stcak();   // use your custom stack class
+        Stack s = new Stack();   // use your custom stack class
         s.push(1);
         s.push(2);
         s.push(3);

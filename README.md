@@ -1,65 +1,44 @@
+Data Structures & Algorithms (DSA)
 
-# 🚀 DSA: Mastering Data Structures & Algorithms
+This repository contains implementations of Data Structures and Algorithms in Java.
+It is intended as a reference for learning, interview preparation, and problem-solving practice.
 
-Welcome to my **DSA journey!** 🌟
-This repository is my personal playground where I explore, practice, and conquer **Data Structures** and **Algorithms** — one bug at a time. 🐞➡️💡
+Contents
+Data Structures
 
----
+Arrays
 
-## 📌 What's inside?
+Linked Lists
 
-🔹 **Classic Data Structures:**
-✅ Arrays
-✅ Linked Lists
-✅ Stacks & Queues
-✅ Trees & Binary Search Trees
-✅ Heaps
-✅ HashMaps / HashSets
-✅ Graphs
+Stacks & Queues
 
-🔹 **Algorithmic Goodness:**
-✅ Sorting (Bubble, Selection, Insertion, Merge, Quick...)
-✅ Searching (Binary Search and friends)
-✅ Recursion & Backtracking
-✅ Dynamic Programming
-✅ Greedy Algorithms
-✅ Graph Algorithms (DFS, BFS, Dijkstra...)
+Trees & Binary Search Trees
 
----
+Heaps & Priority Queues
 
-## 💻 Language(s)
+Hashing (HashMap / HashSet)
 
-✨ Mostly **Java** (because I love its structure!)
----
+Graphs
 
-## 🚀 Why this repo?
+Algorithms
 
-Because **DSA is the gym for your brain** 🧠💪
-I solve problems, make notes, and share my code to:
-📌 Track my learning progress
-📌 Help others who are on the same path
-📌 Build muscle memory for coding interviews
+Sorting (Bubble, Selection, Insertion, Merge, Quick, etc.)
 
----
+Searching (Binary Search and variations)
 
-## 🤹 Fun facts
+Recursion & Backtracking
 
-💡 Sometimes my code works on the first try.
-💡 Sometimes my code teaches me patience.
-💡 Always, my code helps me grow!
+Dynamic Programming
 
----
+Greedy Algorithms
 
-## 🤝 Contribute / Suggest
+Graph Algorithms (DFS, BFS, Dijkstra, Kruskal, Prim, etc.)
 
-Found a bug? Have a better solution? Cool new problem to solve?
-👉 **Raise an issue or send a PR!** Collaboration = 💙
+Language Used
 
----
+Java (all implementations are in Java)
 
-## 📂 Repo structure
-
-```
+Repository Structure
 DSA/
 ├── Arrays/
 ├── LinkedLists/
@@ -69,21 +48,27 @@ DSA/
 ├── Sorting_Searching/
 ├── DynamicProgramming/
 └── README.md
-```
 
-*(Structure may evolve as I learn more!)*
+Usage
 
----
+Navigate to the desired folder by topic.
 
-## 📈 Let's connect!
+Each file contains Java implementations with comments.
 
-⭐ If you like the repo, **star it** — it keeps me motivated!
-💬 Drop a comment, suggestion, or meme on [Discussions](https://github.com/your-username/DSA/discussions)
+Run the programs in any Java IDE (IntelliJ, Eclipse, VS Code).
 
----
+Contributing
 
-## 🏁 Final words
+Contributions are welcome.
 
-*"DSA is not just about solving problems. It’s about solving them elegantly."* ✨
-Join me in this adventure! 🌍🚀
+Report issues
 
+Suggest optimizations
+
+Add new problems or solutions
+
+Submit a pull request or open an issue.
+
+Final Note
+
+This repository is part of my journey to strengthen DSA fundamentals and practice solving problems efficiently.

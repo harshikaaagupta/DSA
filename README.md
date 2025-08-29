@@ -98,6 +98,3 @@ Contributions are welcome!
 *"DSA is not just about solving problems — it’s about solving them efficiently and elegantly."* ✨
 Let’s code, learn, and grow together! 🚀
 
----
-
-Would you like me to also add a **badges section** (like Java version, repo size, last commit, etc.) at the top for a more **GitHub-professional look**?

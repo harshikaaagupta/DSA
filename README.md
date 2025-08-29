@@ -1,6 +1,3 @@
-Got it 👍 Since your repo uses **only Java**, I’ll refine the README to reflect that clearly and make it more professional:
-
----
 
 # 🚀 Data Structures & Algorithms (DSA) Repository
 

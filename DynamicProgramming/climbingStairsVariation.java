@@ -1,4 +1,5 @@
  // if the person is allowed to either take 1 or 2 or 3 steps while climbing the stairs.
+ 
 import java.util.Arrays;
 
 public class climbingStairsVariation {

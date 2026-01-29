@@ -22,7 +22,6 @@ public class rodCutting{
             }
         }
         return dp[n][totRod];
-
     }
     public static void main(String[] args) {
         int length[] = {1,2,3,4,5,6,7,8};

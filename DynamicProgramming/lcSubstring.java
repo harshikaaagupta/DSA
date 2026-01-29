@@ -1,3 +1,5 @@
+// least common substring
+
 public class lcSubstring {
     public static int lcSubstring(String str1 , String str2){
         int n = str1.length();

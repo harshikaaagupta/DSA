@@ -4,7 +4,7 @@ public class catalanRecursion {
             return 1;
         }
         int ans = 0; //Cn
-        for(int i = 0;i<n-1;i++){
+        for(int i = 0;i<=n-1;i++){
             ans += catalanRecursion(i)*catalanRecursion(n-i-1);
         }
         return ans;

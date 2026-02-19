@@ -19,8 +19,5 @@ public class iterationHashSet {
         for(String city : cities){
             System.out.println(city);
         }
-
-
-
     }
 }

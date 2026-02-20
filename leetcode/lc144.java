@@ -16,5 +16,5 @@ public class lc144 {
         
         result.add(node.val);     
         preorder(node.left, result);  
-        preorder(node.right, result);
+        preorder(node.riglht, result);
 }

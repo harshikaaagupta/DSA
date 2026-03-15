@@ -62,6 +62,29 @@ public class topViewOfaTree {
         System.out.println();
     }
 
+    public static void getDownView(Node root){
+        Queue<Info> q = new LinkedList<>();
+        HashMap<Integer , Node> map = new HashMap<>();
+        int min = 0 , max = 0;
+        q.add(new Info(root , 0));
+        while(!q.isEmpty()){
+            Info curr = q.remove();
+            map.put(curr.hd , curr.node);
+            if(curr.node.left != null){
+                q.add(new Info(curr.node.left,curr.hd-1));
+                min = Math.min(min , curr.hd-1);
+            }
+            if(curr.node.right != null){
+                q.add(new Info(curr.node.right,curr.hd+1));
+                max = Math.max(max,curr.hd+1);
+            }
+        }
+        for(int i = min;i<=max;i++){
+            System.out.print(map.get(i).data + " ");
+        }
+        System.out.println();
+    }
+
     public static void main(String[] args) {
         Node root = new Node(1);
          root.left = new Node(2);
@@ -72,5 +95,6 @@ public class topViewOfaTree {
         root.right.right = new Node(7);
 
         getTopView(root);
+        getDownView(root);
     }
 }

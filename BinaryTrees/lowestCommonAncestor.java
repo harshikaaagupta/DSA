@@ -55,7 +55,6 @@ public class lowestCommonAncestor{
         }
         Node leftLca = lca(root.left, n1, n2);
         Node rightLca = lca(root.right,n1,n2);
-
         if(rightLca == null){
             return leftLca;
         }

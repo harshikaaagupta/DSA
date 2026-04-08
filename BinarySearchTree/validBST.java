@@ -50,7 +50,7 @@ public class validBST {
             root = insert(root, values[i]);
         }
 
-        // inOrder(root);
+        inOrder(root);
         System.out.println();
 
         boolean result =  isValidBST(root, null, null);
